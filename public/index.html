@@ -1,0 +1,54 @@
+<html>
+   <head>
+      <title>Fiction Fusion</title>
+      <!-- add jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- import main.css -->
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <div class="logo">
+         <img src="assets/logo.svg" alt="Fiction Fusion logo">
+      </div>
+      <div class="mainhow">
+         <!-- <button id="show-how-to" class="flat-button">Show How To Use</button> -->
+         <div id="how-to" class=" modal">
+            <button id="close-how-to" class="close-button">×</button>
+            <h2>How to Use Fiction Fusion</h2>
+            <ol>
+               <li>Choose a model on the right: GPT-3, NEO, or GPT-J. We recommend trying GPT-3 first as it has the best overall performance.</li>
+               <li>Start writing the first sentence of your story.</li>
+               <li>When you finish the sentence and end it with a period (.), the AI will start writing the next sentence after a delay of 3 seconds.</li>
+               <li>Continue writing and collaborating with the AI co-author line by line.</li>
+               <li>Note that the AI supports the Dutch language, but it is more creative and proficient in English.</li>
+               <li> <a style="color: rgb(54 54 54);" href="https://docs.google.com/forms/d/e/1FAIpQLSfJ_Hlp5BTshgspMczME3bUpuAdQ8sKg9Ko_TqvxeOL_MhVQQ/viewform?usp=sf_link" target="_blank">Click here to share your experience! It will only take 2 minutes.</a></li>
+            </ol>
+            <p style="font-size:14px">Tip: the AI might be steered in certain directions as it predicts the possible context and your intent at every new sentence.</p>
+         </div>
+      </div>
+      <div class="writing-box">
+         <div class="combobox">
+            <select>
+               <option value="GPT3">Use GPT-3</option>
+               <option value="GPTJ">Use GPT-J</option>
+               <option value="GPTNEO">Use GPT-Neo</option>
+            </select>
+         </div>
+         <textarea placeholder="Start writing your story here..."></textarea>
+      </div>
+      <!-- add link to form: "Please after writing your story fill in this form" -->
+      <div class="form">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ_Hlp5BTshgspMczME3bUpuAdQ8sKg9Ko_TqvxeOL_MhVQQ/viewform?usp=sf_link" target="_blank">Share your experience? It will only take 2 minutes.</a>
+      </div>
+      <script src="js/main.js"></script>
+      <script type="text/javascript">
+         window._mfq = window._mfq || [];
+         (function() {
+           var mf = document.createElement("script");
+           mf.type = "text/javascript"; mf.defer = true;
+           mf.src = "//cdn.mouseflow.com/projects/1ca76fac-b9dd-4e08-829b-c79b35f5de30.js";
+           document.getElementsByTagName("head")[0].appendChild(mf);
+         })();
+       </script>
+   </body>
+</html>
