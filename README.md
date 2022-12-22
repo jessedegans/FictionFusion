@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/jessedegans/FictionFusion/raw/main/public/assets/logo.svg?raw=true"/>
+<img src="https://raw.githubusercontent.com/jessedegans/FictionFusion/master/public/assets/logo.svg"/>
 </p>
 
 
