@@ -3,6 +3,7 @@
 <img src="https://raw.githubusercontent.com/jessedegans/FictionFusion/master/public/assets/logo.svg"/>
 </p>
 
+By [Jesse de Gans](https://github.com/jessedegans) & [Wout den Buurman](https://github.com/woutdb)
 
 ##
 
